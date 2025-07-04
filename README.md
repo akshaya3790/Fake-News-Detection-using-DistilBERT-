@@ -11,3 +11,10 @@ It focuses on classifying news headlines (short texts) as real or fake, based on
 📊 Dataset: Combined Fake.csv and True.csv news headlines .
 🧠 Model: distilbert-base-uncased fine-tuned for 2 epochs .
 🔍 Output: Binary label — "Real" or "Fake" with confidence score .
+
+Fake.csv and True.csv files consist of below columns:-
+
+| File     | Typical Columns                    |
+| -------- | ---------------------------------- |
+| Fake.csv | `title`, `text`, `subject`, `date` |
+| True.csv | `title`, `text`, `subject`, `date` |
